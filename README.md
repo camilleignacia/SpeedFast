@@ -1,21 +1,21 @@
-## SpeedFast - Sistema de Asignación de Pedidos
+# SpeedFast - Sistema de Asignación de Pedidos
 
-### 📌 Descripción General
-Proyecto formativo de la asignatura **Desarrollo Orientado a Objetos II** (Semana 1: "Explorando la sobrecarga y sobreescritura en clases derivadas").
+## Descripción General
+Proyecto formativo de la asignatura **Desarrollo Orientado a Objetos II** (Semana 2: "Definiendo una clase abstracta y su jerarquía").
 Modela un sistema de repartos a domicilio para la empresa **SpeedFast**, aplicando
-**herencia**, **sobrescritura**, **sobrecarga** y **polimorfismo**.
+**herencia**, **clase abstracta**, **sobrescritura**, **sobrecarga** y **polimorfismo**.
 
 ---
 
-### Tipos de Pedido
+## Tipos de Pedido
 
-- **PedidoComida:** Requiere repartidor con mochila térmica.
+- **PedidoComida:** Requiere repartidor con mochila térmica. 
 - **PedidoEncomienda:** Requiere validación de peso y embalaje.
 - **PedidoExpress:** Asigna al repartidor más cercano con disponibilidad inmediata.
 
 ---
 
-### 📁 Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
 ```text
 src/
@@ -30,7 +30,7 @@ src/
 
 ---
 
-### Autora del Proyecto
+## Autora del Proyecto
 
 - Camila Ignacia Sepúlveda Marcos.
 

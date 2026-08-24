@@ -5,8 +5,8 @@ package cl.speedfast;
  */
 public class PedidoComida extends Pedido {
 
-    public PedidoComida(int idPedido, String direccionEntrega) {
-        super(idPedido, direccionEntrega, "Comida");
+    public PedidoComida(int idPedido, String direccionEntrega, double distanciaKm) {
+        super(idPedido, direccionEntrega, "PedidoComida", distanciaKm);
     }
 
     // Sobrescritura: informa el requisito específico de este tipo de pedido.
@@ -24,5 +24,10 @@ public class PedidoComida extends Pedido {
         System.out.println("Asignando repartidor...");
         System.out.println("→ Verificando mochila térmica... OK");
         System.out.println("→ Pedido asignado a " + nombreRepartidor);
+    }
+
+    @Override
+    public int calcularTiempoEntrega() {
+        return 15 + (int)(2 * getDistanciaKm());
     }
 }
